@@ -4,6 +4,8 @@ This is an app created to watch and find Youtube content, is made with ReactJS.
 
 ![](Youtube-Services-reactjs-1.gif)
 
+You can see this alive [here](https://git.heroku.com/cryptic-hamlet-12625.git).
+
 This Project is part of the Udemy course - Modern React with Redux by Stephen Grider
 
 ## Getting Started
@@ -13,7 +15,7 @@ Click in the download button and get the .zip file. Extract the contents of the 
 Or can clone this repository, just copy the git url and open your terminal and run git clone + repository url:
 
 ```
-git clone
+git clone https://github.com/edlobox/youtube-services-react.git
 ```
 
 ### Prerequisites
