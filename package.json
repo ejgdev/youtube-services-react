@@ -6,6 +6,8 @@
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
@@ -29,6 +31,7 @@
     "babel-eslint": "^10.0.1",
     "babel-preset-stage-1": "^6.1.18",
     "eslint-config-airbnb": "17.1.0",
+    "express": "^4.16.4",
     "lodash": "^4.17.11",
     "react": "16.3.2",
     "react-dom": "16.3.2",
