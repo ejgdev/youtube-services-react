@@ -15,7 +15,7 @@ Click in the download button and get the .zip file. Extract the contents of the 
 Or can clone this repository, just copy the git url and open your terminal and run git clone + repository url:
 
 ```
-git clone https://github.com/edlobox/youtube-services-react.git
+git clone https://github.com/ejgdev/youtube-services-react.git
 ```
 
 ### Prerequisites
