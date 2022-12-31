@@ -4,13 +4,13 @@ This is an app created to watch and find Youtube content, is made with ReactJS.
 
 ![](Youtube-Services-reactjs-1.gif)
 
-You can see this alive, [Click here](https://cryptic-hamlet-12625.herokuapp.com/).
+This project was upgraded to use functional components, hooks, Material-UI and Typescript.
+
+![](Youtube-Services-reactjs-v2.gif)
+
+You can see this alive, [Click here](https://ejgdev.github.io/youtube-services-react/).
 
 This Project is part of the Udemy course - Modern React with Redux by Stephen Grider
-
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
