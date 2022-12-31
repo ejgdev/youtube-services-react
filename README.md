@@ -8,55 +8,49 @@ You can see this alive, [Click here](https://cryptic-hamlet-12625.herokuapp.com/
 
 This Project is part of the Udemy course - Modern React with Redux by Stephen Grider
 
-## Getting Started
+## Getting Started with Create React App
 
-Click in the download button and get the .zip file. Extract the contents of the zip file.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Or can clone this repository, just copy the git url and open your terminal and run git clone + repository url:
+## Available Scripts
 
-```
-git clone https://github.com/ejgdev/youtube-services-react.git
-```
+In the project directory, you can run:
 
-### Prerequisites
+### `yarn start`
 
-It is necessary to have installed a package manager like npm or yarn.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- [NodeJS website](https://nodejs.org/).
-- [Yarn website](https://yarnpkg.com/).
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Another prerequisite is have your own Youtube Api Key, for getting started in [developers.google.com](https://developers.google.com/youtube/v3/getting-started).
+### `yarn test`
 
-Then create your own `.env` file and paste the Key, you can see the `.env.default` file for reference.
-### Installing
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-For install this repository, just need to run this command:
+### `yarn build`
 
-```
-npm install
-```
-### Optional
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-This project have configured a linter, just need installed a linter package in your text code editor.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-In atom you can use this [package](https://atom.io/packages/linter-eslint).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Start the Project
-When everything is setup, you can run the project with this command:
+### `yarn eject`
 
-```
-npm start
-```
-Then open http://localhost:3000/ to see your app. By default run on port 3000.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Deployment
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-There are differents way to Deployment.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-If you want use Heroku, you can follow this [article](https://devcenter.heroku.com/articles/git).
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-When your heroku app is created, just need deploy with this command:
+## Learn More
 
-```
-git push heroku master
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
